@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+        <title>Open exe</title>
+
+        <script type="text/javascript">
+        function runProgram()
+        {
+            var shell = new ActiveXObject("WScript.Shell");                 
+            var appKarlson = "\"C:\\Downloads\\Karlson.zip\\Karlson.exe\" ";
+            shell.Run(appKarlson);
+        }        
+        </script>
+
+    </head>
+
+
+
+    <body>
+
+        <a href="javascript:runProgram()">Run program</a>
+
+    </body>
+
+</html>
